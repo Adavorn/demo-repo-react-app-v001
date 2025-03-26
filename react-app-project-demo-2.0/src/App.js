@@ -15,7 +15,8 @@ function App() {
           <Route path="/about" element={<About/>}/>
           <Route path="/Page1" element={<Page1/>}/>
         </Routes>
-    </HashRouter>    
+    </HashRouter>   
+     
     </>
   ); 
 }

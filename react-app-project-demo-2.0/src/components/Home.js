@@ -20,7 +20,7 @@ function Home() {
             <a href="#" onClick={lnkusestatedemo1}>useState demo 1</a><p></p>              
           </div>
           <div>
-            [displa info]
+            [display info]
           </div>
           <p>Footer @ 2025</p>
     </>
