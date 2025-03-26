@@ -1,5 +1,6 @@
 {
   "name": "react-app-project-demo-2.0",
+  "homepage": "https://github.com/Adavorn/demo-repo-react-app-v001",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -13,6 +14,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -37,6 +40,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "react-router-dom": "^7.4.0"
   }
 }
