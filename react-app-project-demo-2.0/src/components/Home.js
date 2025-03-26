@@ -13,7 +13,7 @@ function Home() {
  
   return (
     <>
-          <p>Demo react app v3.10</p>
+          <p>Demo react app v3.15</p>
           <div>
             <a href="#" onClick={lnkuserefdemo1}>useRef demo 1</a><p></p>
             <a href="#" >useRef demo 2</a><p></p>
